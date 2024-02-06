@@ -1,0 +1,265 @@
+@media screen and (max-width: 1000px) {
+    .header {
+        margin-left: -50px;
+    }
+    
+    .about {
+        flex-direction: column;
+    }
+
+    .menu ul li a {
+        font-size: var(--fz-18); 
+    }
+
+    .contact-info a {
+        text-transform: uppercase;
+        text-align: end;
+    }
+    
+    .contact-info {
+        display: none;
+    }
+
+    .contact-info-1000 {
+        display: flex;
+    }
+
+}
+
+
+@media screen and (max-width: 950px) {
+    .logo-content h2 {
+        font-size: var(--fz-20);
+    }
+    .logo-img {
+        width: 130px;
+    }
+
+    .nav .nav-items .nav-item a{
+        font-size: var(--fz-16);
+    }
+
+    .licenses, .history {
+        flex-direction: column;
+    }
+
+    .contacts-items {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    /* .header {
+        justify-content: center;
+    } */
+
+    .logo-content h2 {
+        font-size: var(--fz-18);
+    }
+
+    .contact-info-1000 {
+        margin-left: 30px;
+    }
+
+    .cooperation-items {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer-item:first-of-type {
+        display: none;
+    }
+
+    .opportunity-wrapper {
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        /* align-items: flex-start; */
+        column-gap: 60px;
+    }
+    
+    .hamburger-nav {
+        display: flex;
+        align-self: flex-start;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .section-h2 {
+        font-size: var(--fz-30);
+    }
+
+    /* iframe {
+        display: none;
+    } */
+
+    .contacts {
+        justify-content: center;
+    }
+
+    .map-section{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .about-items {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 40px;
+    }
+
+    .about-item-illustration {
+        display: none;
+    }
+
+    .about-item-subtitle {
+        font-size: var(--fz-20);
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo-content {
+        display: none;
+    }
+
+    .slide-content img {
+        width: 200px;
+    }
+
+    .slide-content .present h2 {
+        line-height: 40px;
+        font-size: var(--fz-30);
+    }
+
+    .history-items {
+        flex-direction: column;
+        /* margin-top: 40px; */
+        margin-bottom: 40px;
+    }
+
+    .history-item {
+        margin-bottom: 20px; 
+        grid-template-columns: 0.1fr 1fr;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        transition-duration: 0.5s;
+    }
+
+    .history-item:hover {
+        transform: scale(1.05);
+        box-shadow: 4px 4px 8px 0px rgba(10, 25, 37, 0.2);
+    }
+
+    .history-item-p {
+        padding-top: 10px;
+    }
+
+    .history-item-h2 {
+        padding-left: 10px;
+    }
+
+    .about-item {
+        grid-template-rows: 0.3fr 0.3fr 1fr;
+    }
+
+    .about-item-number {
+        width: 50px;
+    }
+
+    .about-item-title {
+        font-size: var(--fz-24);
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts-item {
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        column-gap: 10px;
+    }
+    
+    .contacts-info p,
+    .contacts-info a {
+        font-weight: normal;
+    }
+    
+    .section-h2 {
+        font-size: var(--fz-24);
+    }
+
+    .about-item-subtitle {
+        font-size: var(--fz-16s);
+    }
+    .slide-content {
+        flex-direction: column;
+    }
+
+    .slide-content .present h2 {
+        padding-top: 10px;
+        font-size: var(--fz-24);
+    }
+
+    .slider {
+        padding-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        display: none;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .menu-500 {
+        display: block;
+    }
+
+    .opportunity {
+        flex-direction: column;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .footer {
+        justify-content: flex-start;
+    }
+
+    .footer .services {
+        display: none;
+    }
+
+    .licenses {
+        display: none;
+    }
+
+    .cooperation {
+        background-color: var(--light-bgc);
+    }
+}
+
+
