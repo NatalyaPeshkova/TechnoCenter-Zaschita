@@ -1,7 +1,7 @@
 @media screen and (max-width: 1000px) {
-    .header {
+    /* .header {
         margin-left: -50px;
-    }
+    } */
     
     .about {
         flex-direction: column;
