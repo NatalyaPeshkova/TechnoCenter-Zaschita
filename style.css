@@ -859,6 +859,7 @@ transform: scale(1.2);
 .company-contact-info {
     transform: scale(1.4);
     transition-duration: 0.5s;
+    padding-right: 20px;
 }
 
 .company-contact-info a:hover{

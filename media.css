@@ -24,6 +24,10 @@
         display: flex;
     }
 
+    .company .about-item-title {
+        font-size: var(--fz-24);
+    } 
+
 }
 
 
@@ -46,6 +50,10 @@
     .contacts-items {
         flex-direction: column;
     }
+
+    .company-item {
+        height: 550px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -64,6 +72,11 @@
     .cooperation-items {
         justify-content: space-around;
     }
+
+    .company .about-item-subtitle {
+        line-height: 20px;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -73,8 +86,12 @@
 
     .opportunity-wrapper {
         display: flex;
-
     }
+
+    .company-item .about-item-illustration {
+        width: 100px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -124,6 +141,15 @@
     .about-item-subtitle {
         font-size: var(--fz-20);
         line-height: 22px;
+    }
+
+    .company-items {
+        grid-gap: 20px;
+    }
+
+    .company-item {
+        max-width: 90%;
+        height: auto;
     }
 }
 
@@ -262,4 +288,8 @@
     }
 }
 
-
+@media screen and (max-width: 450px) {
+    .company .about-item-title {
+        font-size: var(--fz-20);
+    }
+}
