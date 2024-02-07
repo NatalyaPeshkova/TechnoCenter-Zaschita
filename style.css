@@ -25,6 +25,10 @@
     --light-bgc: #F1F5F9;
 }
 
+/* * {
+    outline: 1px solid #f00 !important;
+} */
+
 /* *, header, main, .wrapper, footer, div, img {
     border: 1px green solid;
 } */
@@ -102,8 +106,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -478,6 +482,7 @@ body {
     padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .section-items {
@@ -840,6 +845,7 @@ transform: scale(1.2);
     font-weight: normal;
 }
 
+
 .footer-item .contacts-info img {
     filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(312deg) brightness(102%) contrast(101%);
 }
@@ -855,7 +861,7 @@ transform: scale(1.2);
 }
 
 .company-contact-info {
-    transform: scale(1.4);
+    /* transform: scale(1.4); */
     transition-duration: 0.5s;
     padding-right: 20px;
 }
@@ -869,13 +875,34 @@ transform: scale(1.2);
     padding-top: 10px;
 }
 
+.menu-wrapper {
+    background-color: var(--blue-color);
+    width: 100%;
+}
+
+.company-menu {
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+.company-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: var(--white-color);
+    max-width: 1200px;
+}
+
 .company-menu ul li a {
     font-size: var(--fz-24);
+    color: var(--white-color);
 }
 
 .company {
     flex-direction: column;
 }
+
 .company-section-img {
     max-width: 100%;
     transition-duration: 0.5s;
@@ -970,6 +997,10 @@ transform: scale(1.2);
 
 /* стили для страницы контакты */
 
+.map-section {
+    flex-direction: column;
+}
+
 #contacts-map {
     width: 80%;
     height: 400px;
@@ -978,4 +1009,25 @@ transform: scale(1.2);
 
 .map-isless-768 {
     display: none;
+}
+
+.map-contacts-item {
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 40px;
+    max-width: 100%;
+    padding: 0 50px;
+}
+
+.map-contacts-item p {
+    font-size: var(--fz-16);
+    text-align: start;
+}
+
+.map-contacts-item a {
+    font-size: var(--fz-16);
+    text-align: start;
 }
