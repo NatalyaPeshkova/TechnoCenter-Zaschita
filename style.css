@@ -812,29 +812,21 @@ transform: scale(1.2);
     font-weight: bold;
 }
 
+
+.footer-wrapper {
+    background-image: url(/img/cameras.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     padding: 50px;
     column-gap: 60px;
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
 }
-
-.footer-wrapper {
-    background-image: url(/img/cameras.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* display: flex;
-    justify-content: space-around;
-    padding: 50px; */
-}
-/* 
-.footer-item img {
-    max-width: 200px;
-    height: auto;
-} */
 
 .footer-item-h2 {
     color: var(--white-color);
@@ -918,8 +910,6 @@ transform: scale(1.2);
     overflow: hidden;
     position: relative; 
     cursor: pointer;
-    /* border-radius: 50px; */
-    /* box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); */
 }
 
 /* 
@@ -930,13 +920,8 @@ transform: scale(1.2);
     max-width: 100%;
     height: auto;
     display: block;
-/* трансформация - реальный масштаб картинки */
-    /* -webkit-transform: scale(1);
-    transform: scale(1); */
-/* время исполнения трансформации */
-    /* -webkit-transition: .4s ease-in-out;
-    transition: .4s ease-in-out; */
 }
+
 /*
  * Масштабируем изображение с помощью 
  * трансформации  при наведении 
@@ -981,4 +966,16 @@ transform: scale(1.2);
     100% {
         left: 125%;
     }
+}
+
+/* стили для страницы контакты */
+
+#contacts-map {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.map-isless-768 {
+    display: none;
 }

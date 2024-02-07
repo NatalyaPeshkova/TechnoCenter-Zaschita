@@ -92,6 +92,14 @@
         width: 100px;
     }
 
+    #contacts-map {
+        display: none;
+    }
+
+    .map-isless-768 {
+        display: flex;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -112,10 +120,6 @@
     .section-h2 {
         font-size: var(--fz-30);
     }
-
-    /* iframe {
-        display: none;
-    } */
 
     .contacts {
         justify-content: center;
