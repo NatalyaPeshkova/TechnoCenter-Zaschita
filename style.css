@@ -932,8 +932,9 @@ transform: scale(1.2);
  * родительского контейнера 
 */
 .box-thumb img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    margin: 0 auto;
     display: block;
 }
 
@@ -1022,9 +1023,14 @@ transform: scale(1.2);
 
 /* стили для услуг  */
 
+.services {
+    flex-direction: column;
+}
+
 .services-items { 
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 80px;
 }
 
 .services-item {
@@ -1049,3 +1055,24 @@ transform: scale(1.2);
 .services-item-icon {
     width: 50%;
 }
+
+.services-page {
+    background-color: var(--white-color);
+    flex-direction: column;
+}
+
+.services-page-items {
+    margin-top: 0;
+}
+
+.services-page-item {
+    padding: 50px;
+}
+
+.services-page-item h3{
+    font-size: var(--fz-16);
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: var(--fz-20);
+}
+
