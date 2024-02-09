@@ -1028,31 +1028,24 @@ transform: scale(1.2);
 }
 
 .services-item {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "services-item-icon services-item-title"
-        "services-item-subtitle services-item-subtitle";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 200px;
     height: 200px;
     background-color: var(--white-color);
     border-radius: 10px;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
     transition-duration: 1s;
 }
-    .services-item-icon { grid-area: services-item-icon; }
-    .services-item-title { grid-area: services-item-title; }
-    .services-item-subtitle { grid-area: services-item-subtitle; }
 
 .services-item:hover {
     transform: scale(1.2);
     box-shadow: 4px 4px 8px 0px rgba(10, 25, 37, 0.2);
+}
 
+.services-item-icon {
+    width: 50%;
 }
