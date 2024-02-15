@@ -308,4 +308,16 @@
     .company .about-item-title {
         font-size: var(--fz-20);
     }
+
+}
+
+@media screen and (max-width: 400px) {
+    .company .about-item-title {
+        font-size: var(--fz-16);
+        margin: 0;
+    }
+
+    .about-item {
+        grid-template-rows: 0.1fr 0.1fr 1fr;
+    }
 }

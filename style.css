@@ -1061,18 +1061,20 @@ transform: scale(1.2);
     flex-direction: column;
 }
 
-.services-page-items {
-    margin-top: 0;
+.services-page {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 0.5fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "main-img main-img main-img about-service about-service about-service about-service"
+    "main-img main-img main-img about-service about-service about-service about-service"
+    "service-elements service-elements service-elements about-service about-service about-service about-service"
+    "service-elements service-elements service-elements small-img small-img small-img small-img"; 
 }
-
-.services-page-item {
-    padding: 50px;
-}
-
-.services-page-item h3{
-    font-size: var(--fz-16);
-    font-weight: bold;
-    margin-bottom: 20px;
-    font-size: var(--fz-20);
-}
-
+.main-img { grid-area: main-img; }
+.about-service { grid-area: about-service; }
+.service-elements { grid-area: service-elements; }
+.small-img { grid-area: small-img; }
