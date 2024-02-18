@@ -105,7 +105,7 @@ body {
 
 .logo{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     width: max-content;
 }
@@ -1060,8 +1060,100 @@ transform: scale(1.2);
     width: 35%;
 }
 
-.services-page {
-    background-color: var(--white-color);
-    flex-direction: column;
+.services-page {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "access-offering access-offering access-need access-need"
+    "access-offering access-offering access-info access-info"
+    "access-components access-components access-info access-info"
+    "access-components access-components access-info access-info"
+    "access-components access-components access-advertising access-advertising ";
+    margin: 40px;
 }
 
+.access-components { grid-area: access-components; }
+.access-offering { grid-area: access-offering; }
+.access-info { grid-area: access-info; }
+.access-advertising { grid-area: access-advertising; }
+.access-need { grid-area: access-need; }
+
+
+.services-page .box-thumb img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    /* padding: 10px; */
+}
+
+.access-offering {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-color);
+    border-radius: 10px;
+    padding: 40px;
+    color: var(--white-color);
+    
+}
+
+.access-offering h2 {
+    font-size: var(--fz-30);
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+
+.access-offering p {
+    font-size: var(--fz-20);
+    line-height: 130%;
+    /* font-weight: bold; */
+    text-align:justify;
+}
+
+.access-info {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    /* background-image: url(/img/skud-bgi-6.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding: 40px;
+    color: var(--black-color);
+}
+
+.access-info h3 {
+    font-size: var(--fz-30);
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.access-info ul li {
+    font-weight: bold;
+    color: var(--black-color);
+    margin-bottom: 15px;
+}
+
+.access-need {
+    border-radius: 10px;
+    padding: 40px;
+    background-color: var(--white-color);
+}
+
+.access-need img {
+    width: 40px;
+    height: 40px;
+}
