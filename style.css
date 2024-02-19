@@ -1134,7 +1134,6 @@ max-width: 1200px;
 .access-need-img {
     max-width: 45%;
     height: auto;
-    /* margin: 20px; */
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
     transition-duration: .5s;
@@ -1153,4 +1152,24 @@ max-width: 1200px;
 
 .project-info {
     display: none;
+}
+
+.fire-alarm-offering {
+    width: 100%;    
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.fire-alarm-offering h3 {
+    color: var(--white-color);
+    font-size: var(--fz-30);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.fire-alarm-need {
+    background-image: url(/img/fire-alarm2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
