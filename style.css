@@ -1098,23 +1098,24 @@ max-width: 1200px;
 .access-offering h2 {
     font-size: var(--fz-30);
     font-weight: bold;
-    /* text-align: center; */
     margin-bottom: 20px;
 }
 
 .access-offering p {
     font-size: var(--fz-20);
     line-height: 130%;
-    /* font-weight: bold; */
     text-align:justify;
 }
 
+.access-offering:hover {
+    transform: scale(1.05);
+}
+
 .access-need {
+    display: flex;
     border-radius: 10px;
     padding: 40px;
-    background-image: url(/img/skud-bgi2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-color: rgba(46, 125, 232, 0.5);;
     border-bottom-right-radius: 100px;
     line-height: 1.3;
     border-top-left-radius: 100px;
@@ -1127,4 +1128,29 @@ max-width: 1200px;
     font-size: var(--fz-24);
     text-align: left;
     width: 50%;
+    margin: 20px;
+}
+
+.access-need-img {
+    max-width: 45%;
+    height: auto;
+    /* margin: 20px; */
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    transition-duration: .5s;
+}
+
+.access-need:hover {
+    transform: scale(1.05);
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    transition-duration: 0.5s;
+}
+
+.project-info {
+    display: none;
 }

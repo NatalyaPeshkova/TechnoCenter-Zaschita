@@ -1,8 +1,4 @@
 @media screen and (max-width: 1000px) {
-    /* .header {
-        margin-left: -50px;
-    } */
-    
     .about {
         flex-direction: column;
     }
@@ -27,6 +23,14 @@
     .company .about-item-title {
         font-size: var(--fz-24);
     } 
+
+    .access {
+        display: flex;
+        flex-direction: column;
+    }
+    .access-offering {
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -268,6 +272,10 @@
     .footer-contacts{
         margin-left: 40px;
     }
+
+    .access-need h3{
+        font-size: var(--fz-18);
+    }
 }
 
 
@@ -302,6 +310,25 @@
     .cooperation {
         background-color: var(--light-bgc);
     }
+    
+    .access-offering h2 {
+        font-size: var(--fz-18);
+    }
+
+    .access-offering p {
+        font-size: var(--fz-16);
+    }
+
+    .project-img {
+        display: none;
+    }
+
+    .project-info {
+        display: flex;
+        color: var(--blue-color);
+        font-size: var(--fz-24);
+        font-weight: bold;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -319,5 +346,13 @@
 
     .about-item {
         grid-template-rows: 0.1fr 0.1fr 1fr;
+    }
+
+    .access-need-img {
+        display: none;
+    }
+
+    .access-need h3 {
+        width: 100%;
     }
 }
