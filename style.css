@@ -769,7 +769,7 @@ transform: scale(1.2);
 }
 
 .opportunity-wrapper {
-    display: none;
+    /* display: none; */
     background-color: var(--white-color);
 }
 
@@ -1232,4 +1232,24 @@ img:nth-child(1){animation-delay:0}
 
 @media(min-width:321px) and (max-width:480px) {
 .container_slider_css{width:80%;height:190px}
+}
+
+.opportunity-page .opportunity-p li {
+    font-size: var(--fz-30);
+}
+
+.opportunity-page .opportunity-item img {
+    width: auto;
+}
+
+.opportunity-page .opportunity-item h3 {
+    font-size: var(--fz-30);
+}
+
+.opportunity-page .opportunity-h2 {
+    display: none;
+}
+
+.opportunity-page .opportunity-item {
+    display: block;
 }
