@@ -32,6 +32,15 @@
         margin-bottom: 20px;
     }
 
+    .fire-alarm-need {
+        flex-direction: row;
+    }
+
+    .fire-alarm-need img {
+        width: 40%;
+    }
+
+
 }
 
 
@@ -103,7 +112,6 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        /* align-items: flex-start; */
         column-gap: 60px;
     }
     
@@ -137,6 +145,12 @@
     .company-menu {
         display: none;
     }
+
+    .fire-alarm-need img {
+        display: none;
+    }
+
+    
 
 }
 
