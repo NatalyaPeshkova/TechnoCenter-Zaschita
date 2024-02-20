@@ -150,7 +150,7 @@
         display: none;
     }
 
-    
+
 
 }
 
@@ -289,6 +289,10 @@
 
     .access-need h3{
         font-size: var(--fz-18);
+    }
+
+    .optical-fiber-need h3 {
+        font-size: var(--fz-24);
     }
 }
 

@@ -1253,3 +1253,20 @@ img:nth-child(1){animation-delay:0}
 .opportunity-page .opportunity-item {
     display: block;
 }
+
+/* .optical-fiber-offering {
+    background-color: var(--white-color);
+    color: var(--blue-color);
+} */
+
+.optical-fiber-need {
+    flex-direction: column;
+}
+
+.optical-fiber-need h3 {
+    width: 100%;
+}
+.optical-fiber-need ul li {
+    color: var(--white-color);
+    font-size: var(--fz-24);
+}
