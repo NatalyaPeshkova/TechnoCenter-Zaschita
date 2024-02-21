@@ -1272,3 +1272,23 @@ img:nth-child(1){animation-delay:0}
     color: var(--white-color);
     font-size: var(--fz-24);
 }
+
+.electrisity-offering {
+    align-items:flex-start;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+
+}
+
+.electrisity-offering ul li {
+    font-size: var(--fz-24);
+    line-height: 1.3;
+}
+
+.electrisity-need {
+    border-radius: 10px;
+}
+
+.electrisity-need img {
+    border-radius: 10px;
+}
