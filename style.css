@@ -1173,11 +1173,13 @@ max-width: 1200px;
     font-size: var(--fz-24);
     color: var(--blue-color);
     font-weight: bold;
+    overflow:hidden;
 }
 
 .fire-alarm-need {
     flex-direction: column;
     background-color: #fff;
+    padding: 20px;
 }
 
 .fire-alarm-need img {
