@@ -243,6 +243,20 @@
         padding-top: 20px;
     }
 
+    .map-contacts-item .contacts-info:nth-child(3) {
+        display: none;
+    }
+
+    .map-contacts-item .contacts-info:nth-child(4) {
+        display: none;
+    }
+
+    .map-contacts-item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -286,6 +300,7 @@
     .footer-contacts{
         margin-left: 40px;
     }
+
 
     .access-need h3{
         font-size: var(--fz-18);
@@ -337,6 +352,10 @@
         font-size: var(--fz-16);
     }
 
+    .electrisity-offering ul li {
+        font-size: var(--fz-16);
+    }
+
     .project-img {
         display: none;
     }
@@ -347,6 +366,7 @@
         font-size: var(--fz-24);
         font-weight: bold;
     }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -354,9 +374,9 @@
         font-size: var(--fz-20);
     }
 
-}
-
-@media screen and (max-width: 400px) {
+    .electrisity-offering {
+        border-radius: 10px
+    }
     .company .about-item-title {
         font-size: var(--fz-16);
         margin: 0;
@@ -370,7 +390,12 @@
         display: none;
     }
 
+    .access-need {
+        padding: 10px;
+    }
+
     .access-need h3 {
         width: 100%;
     }
 }
+

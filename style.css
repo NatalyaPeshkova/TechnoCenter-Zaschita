@@ -1292,3 +1292,9 @@ img:nth-child(1){animation-delay:0}
 .electrisity-need img {
     border-radius: 10px;
 }
+
+.documentation {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
