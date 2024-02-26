@@ -1298,3 +1298,11 @@ img:nth-child(1){animation-delay:0}
     margin: 0 auto;
     margin-bottom: 20px;
 }
+
+.documentation-wrapper{
+    background-image: url(/img/documentation3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 100%;
+}
