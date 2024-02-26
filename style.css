@@ -1306,3 +1306,8 @@ img:nth-child(1){animation-delay:0}
     height: 1200px;
     width: 100%;
 }
+
+.cooperation-page .hover-effect {
+    width: 200px;
+    height: 100px;
+}
