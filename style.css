@@ -807,7 +807,7 @@ transform: scale(1.2);
 
 
 .footer-wrapper {
-    background-image: url(/img/cameras.svg);
+    background-image: url(./img/cameras.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1180,7 +1180,7 @@ max-width: 1200px;
     /* flex-direction: column; */
     background-color: #fff;
     padding: 20px;
-    background-image: url(/img/fire-alarm3.jpg);
+    background-image: url(./img/fire-alarm3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
