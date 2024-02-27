@@ -1183,7 +1183,7 @@ max-width: 1200px;
     background-image: url(/img/fire-alarm3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 /* .fire-alarm-need img {
@@ -1298,20 +1298,32 @@ img:nth-child(1){animation-delay:0}
 }
 
 .documentation {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
-.documentation-wrapper{
+/* .documentation-wrapper{
     background-image: url(/img/documentation3.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 1200px;
     width: 100%;
-}
+} */
 
 .cooperation-page .hover-effect {
     width: 200px;
     height: 100px;
+}
+
+.cooperation-page .cooperation-items {
+    justify-content: left;
+}
+
+.cooperation-page .section-h2 {
+    padding: 0;
+}
+
+.cooperation-page {
+    padding: 40px;
 }
