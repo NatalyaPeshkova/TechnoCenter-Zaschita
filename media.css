@@ -67,6 +67,10 @@
     .company-item {
         height: 550px;
     }
+
+    .documentation-major, .documentation-list {
+        font-size: var(--fz-24);
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -106,6 +110,26 @@
 
     .company-item .about-item-illustration {
         width: 100px;
+    }
+
+    .documentation-800 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .documentation-800 .documentation-columns {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .documentation-800 .documentation-img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .documentation {
+        display: none;
     }
 
 }
@@ -149,8 +173,6 @@
     .fire-alarm-need img {
         display: none;
     }
-
-
 
 }
 
@@ -309,6 +331,17 @@
     .optical-fiber-need h3 {
         font-size: var(--fz-24);
     }
+
+    .documentation-800 .documentation-columns {
+        flex-direction: column-reverse;
+        font-size: var(--fz-20);
+    }
+
+    .documentation-800 .documentation-img {
+        margin-bottom: 20px;
+        align-self: center;
+    }
+
 }
 
 
