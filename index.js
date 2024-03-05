@@ -9,3 +9,12 @@ $('.sliders').slick({
     speed:4000
 });
 
+const printNumbers = (initialNumber) => {
+    
+while (initialNumber >= 0) {
+    console.log(initialNumber);
+    initialNumber -= 1; 
+}
+};
+
+printNumbers(10);
