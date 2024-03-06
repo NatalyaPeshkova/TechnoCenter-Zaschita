@@ -97,6 +97,9 @@
     .company-menu ul li a {
         font-size: var(--fz-20);
     }
+    /* .company-menu ul {
+        gap: 20px;
+    } */
 }
 
 @media screen and (max-width: 800px) {
@@ -173,6 +176,8 @@
     .fire-alarm-need img {
         display: none;
     }
+    
+
 
 }
 
@@ -279,6 +284,17 @@
         margin-top: 10px;
     }
 
+    .project-info {
+        display: flex;
+        color: var(--blue-color);
+        font-size: var(--fz-24);
+        font-weight: bold;
+    }
+
+    .box-thumb {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -361,8 +377,23 @@
         display: block;
     }
 
+    .menu-500 ul li a {
+        font-size: var(--fz-16);
+    }
+
     .opportunity {
         flex-direction: column;
+    }
+    .opportunity-page .opportunity-item h3 {
+        font-size: var(--fz-18);
+    }
+
+    .opportunity-page .opportunity-item img {
+        width: 50px;
+    }
+
+    .opportunity-page .opportunity-p li {
+        font-size: var(--fz-16);
     }
 
     .contacts {
@@ -387,17 +418,6 @@
 
     .electrisity-offering ul li {
         font-size: var(--fz-16);
-    }
-
-    .project-img {
-        display: none;
-    }
-
-    .project-info {
-        display: flex;
-        color: var(--blue-color);
-        font-size: var(--fz-24);
-        font-weight: bold;
     }
 
 }

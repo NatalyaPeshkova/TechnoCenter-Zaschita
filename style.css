@@ -877,7 +877,7 @@ transform: scale(1.2);
 .company-menu ul{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
     color: var(--white-color);
     max-width: 1200px;
 }
