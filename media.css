@@ -74,10 +74,6 @@
 }
 
 @media screen and (max-width: 900px) {
-    /* .header {
-        justify-content: center;
-    } */
-
     .logo-content h2 {
         font-size: var(--fz-18);
     }
@@ -97,9 +93,7 @@
     .company-menu ul li a {
         font-size: var(--fz-20);
     }
-    /* .company-menu ul {
-        gap: 20px;
-    } */
+
 }
 
 @media screen and (max-width: 800px) {
@@ -142,15 +136,6 @@
         column-gap: 60px;
     }
     
-    .hamburger-nav {
-        display: flex;
-        align-self: flex-start;
-    }
-
-    .nav {
-        display: none;
-    }
-
     .section-h2 {
         font-size: var(--fz-30);
     }
@@ -177,8 +162,13 @@
         display: none;
     }
     
+    .menu-500 {
+        display: block;
+    }
 
-
+    .menu-500 ul li a {
+        font-size: var(--fz-16);
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -373,14 +363,6 @@
         display: none;
     }
 
-    .menu-500 {
-        display: block;
-    }
-
-    .menu-500 ul li a {
-        font-size: var(--fz-16);
-    }
-
     .opportunity {
         flex-direction: column;
     }
@@ -419,7 +401,6 @@
     .electrisity-offering ul li {
         font-size: var(--fz-16);
     }
-
 }
 
 @media screen and (max-width: 450px) {
